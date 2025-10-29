@@ -1,0 +1,467 @@
+[
+  {
+    "case": {
+      "case_id": "case_wheat_loam_1",
+      "crop_type": "wheat",
+      "soil_type": "loam",
+      "sowing_date": "2025-09-01",
+      "farm_area_ha": 2.0,
+      "latitude": 28.7041,
+      "longitude": 77.1025,
+      "current_moisture_pct": 14.0
+    },
+    "soil_result": {
+      "output": {
+        "avg_soil_moisture_pct": 13.0,
+        "rain_sum_mm": 0,
+        "et0_used_mm_per_day": 4.0,
+        "drought_risk": 93.75,
+        "drought_alert": true,
+        "soil_data": {
+          "used_nearest": false,
+          "used_custom": true,
+          "current_moisture_pct": 13.0,
+          "target_vwc": 0.28,
+          "wilting_vwc": 0.12,
+          "deficit_vwc": 0.15,
+          "et0_used_mm_per_day": null,
+          "recent_rain_mm": 0.0
+        },
+        "irrigation_needs": {
+          "mode": "sprinkler",
+          "volume_mm": 45.0,
+          "days_to_next": 16.1,
+          "efficiency": 0.85
+        },
+        "root_zone": {
+          "depth_mm": 300,
+          "current_vwc": 0.13,
+          "target_vwc": 0.28
+        },
+        "thresholds": {
+          "field_capacity_vwc": 0.35,
+          "critical_vwc": 0.22,
+          "wilting_point_vwc": 0.12
+        },
+        "confidence_factors": {
+          "moisture_data": {
+            "value": 1.0,
+            "weight": 0.3
+          },
+          "et0": {
+            "value": 0.4,
+            "weight": 0.2
+          },
+          "location": {
+            "value": 0.9,
+            "weight": 0.2
+          },
+          "drought": {
+            "value": 0.75,
+            "weight": 0.15
+          },
+          "soil": {
+            "value": 0.8,
+            "weight": 0.15
+          }
+        }
+      },
+      "confidence": 0.79,
+      "data_quality": {
+        "moisture_data_points": 5,
+        "et0_quality": "fallback",
+        "location_quality": "actual"
+      }
+    },
+    "decision_result": {
+      "irrigation_volume_mm": 44.5,
+      "irrigation_mode": "sprinkler",
+      "confidence": 0.84,
+      "reasoning": "Aggregated confidence 0.84. ET0=4.0 mm/day; soil_moisture=13.0%. Mode=sprinkler. Location adjustments: subtropical_n zone, autumn season.",
+      "time_factors": {
+        "water_need": 0.99,
+        "growth_rate": 0.9,
+        "location_band": "subtropical_n",
+        "season": "autumn",
+        "confidence": 0.9
+      },
+      "agents": {
+        "soil_water": {
+          "output": {
+            "avg_soil_moisture_pct": 13.0,
+            "rain_sum_mm": 0,
+            "et0_used_mm_per_day": 4.0,
+            "drought_risk": 93.75,
+            "drought_alert": true,
+            "soil_data": {
+              "used_nearest": false,
+              "used_custom": true,
+              "current_moisture_pct": 13.0,
+              "target_vwc": 0.28,
+              "wilting_vwc": 0.12,
+              "deficit_vwc": 0.15,
+              "et0_used_mm_per_day": null,
+              "recent_rain_mm": 0.0
+            },
+            "irrigation_needs": {
+              "mode": "sprinkler",
+              "volume_mm": 45.0,
+              "days_to_next": 16.1,
+              "efficiency": 0.85
+            },
+            "root_zone": {
+              "depth_mm": 300,
+              "current_vwc": 0.13,
+              "target_vwc": 0.28
+            },
+            "thresholds": {
+              "field_capacity_vwc": 0.35,
+              "critical_vwc": 0.22,
+              "wilting_point_vwc": 0.12
+            },
+            "confidence_factors": {
+              "moisture_data": {
+                "value": 1.0,
+                "weight": 0.3
+              },
+              "et0": {
+                "value": 0.4,
+                "weight": 0.2
+              },
+              "location": {
+                "value": 0.9,
+                "weight": 0.2
+              },
+              "drought": {
+                "value": 0.75,
+                "weight": 0.15
+              },
+              "soil": {
+                "value": 0.8,
+                "weight": 0.15
+              }
+            }
+          },
+          "confidence": 0.79,
+          "data_quality": {
+            "moisture_data_points": 5,
+            "et0_quality": "fallback",
+            "location_quality": "actual"
+          }
+        }
+      },
+      "inconsistencies": []
+    },
+    "inconsistencies": []
+  },
+  {
+    "case": {
+      "case_id": "case_rice_clay_1",
+      "crop_type": "rice",
+      "soil_type": "clay",
+      "sowing_date": "2025-07-15",
+      "farm_area_ha": 1.5,
+      "latitude": 26.8467,
+      "longitude": 80.9462,
+      "current_moisture_pct": 30.0
+    },
+    "soil_result": {
+      "output": {
+        "avg_soil_moisture_pct": 29.0,
+        "rain_sum_mm": 0,
+        "et0_used_mm_per_day": 4.0,
+        "drought_risk": 40.0,
+        "drought_alert": true,
+        "soil_data": {
+          "used_nearest": false,
+          "used_custom": true,
+          "current_moisture_pct": 28.999999999999996,
+          "target_vwc": 0.35,
+          "wilting_vwc": 0.2,
+          "deficit_vwc": 0.06,
+          "et0_used_mm_per_day": null,
+          "recent_rain_mm": 0.0
+        },
+        "irrigation_needs": {
+          "mode": "flood",
+          "volume_mm": 40.0,
+          "days_to_next": 4.3,
+          "efficiency": 0.7
+        },
+        "root_zone": {
+          "depth_mm": 200,
+          "current_vwc": 0.29,
+          "target_vwc": 0.35
+        },
+        "thresholds": {
+          "field_capacity_vwc": 0.4,
+          "critical_vwc": 0.3,
+          "wilting_point_vwc": 0.2
+        },
+        "confidence_factors": {
+          "moisture_data": {
+            "value": 1.0,
+            "weight": 0.3
+          },
+          "et0": {
+            "value": 0.4,
+            "weight": 0.2
+          },
+          "location": {
+            "value": 0.9,
+            "weight": 0.2
+          },
+          "drought": {
+            "value": 0.75,
+            "weight": 0.15
+          },
+          "soil": {
+            "value": 0.8,
+            "weight": 0.15
+          }
+        }
+      },
+      "confidence": 0.79,
+      "data_quality": {
+        "moisture_data_points": 5,
+        "et0_quality": "fallback",
+        "location_quality": "actual"
+      }
+    },
+    "decision_result": {
+      "irrigation_volume_mm": 39.6,
+      "irrigation_mode": "flood",
+      "confidence": 0.84,
+      "reasoning": "Aggregated confidence 0.84. ET0=4.0 mm/day; soil_moisture=29.0%. Mode=flood. Location adjustments: subtropical_n zone, autumn season.",
+      "time_factors": {
+        "water_need": 0.99,
+        "growth_rate": 0.9,
+        "location_band": "subtropical_n",
+        "season": "autumn",
+        "confidence": 0.9
+      },
+      "agents": {
+        "soil_water": {
+          "output": {
+            "avg_soil_moisture_pct": 29.0,
+            "rain_sum_mm": 0,
+            "et0_used_mm_per_day": 4.0,
+            "drought_risk": 40.0,
+            "drought_alert": true,
+            "soil_data": {
+              "used_nearest": false,
+              "used_custom": true,
+              "current_moisture_pct": 28.999999999999996,
+              "target_vwc": 0.35,
+              "wilting_vwc": 0.2,
+              "deficit_vwc": 0.06,
+              "et0_used_mm_per_day": null,
+              "recent_rain_mm": 0.0
+            },
+            "irrigation_needs": {
+              "mode": "flood",
+              "volume_mm": 40.0,
+              "days_to_next": 4.3,
+              "efficiency": 0.7
+            },
+            "root_zone": {
+              "depth_mm": 200,
+              "current_vwc": 0.29,
+              "target_vwc": 0.35
+            },
+            "thresholds": {
+              "field_capacity_vwc": 0.4,
+              "critical_vwc": 0.3,
+              "wilting_point_vwc": 0.2
+            },
+            "confidence_factors": {
+              "moisture_data": {
+                "value": 1.0,
+                "weight": 0.3
+              },
+              "et0": {
+                "value": 0.4,
+                "weight": 0.2
+              },
+              "location": {
+                "value": 0.9,
+                "weight": 0.2
+              },
+              "drought": {
+                "value": 0.75,
+                "weight": 0.15
+              },
+              "soil": {
+                "value": 0.8,
+                "weight": 0.15
+              }
+            }
+          },
+          "confidence": 0.79,
+          "data_quality": {
+            "moisture_data_points": 5,
+            "et0_quality": "fallback",
+            "location_quality": "actual"
+          }
+        }
+      },
+      "inconsistencies": []
+    },
+    "inconsistencies": []
+  },
+  {
+    "case": {
+      "case_id": "case_maize_sandy_1",
+      "crop_type": "maize",
+      "soil_type": "sandy",
+      "sowing_date": "2025-06-10",
+      "farm_area_ha": 3.2,
+      "latitude": 15.3173,
+      "longitude": 75.7139,
+      "current_moisture_pct": 18.5
+    },
+    "soil_result": {
+      "output": {
+        "avg_soil_moisture_pct": 17.5,
+        "rain_sum_mm": 0,
+        "et0_used_mm_per_day": 4.0,
+        "drought_risk": 0.0,
+        "drought_alert": false,
+        "soil_data": {
+          "used_nearest": false,
+          "used_custom": true,
+          "current_moisture_pct": 17.5,
+          "target_vwc": 0.16,
+          "wilting_vwc": 0.08,
+          "deficit_vwc": 0.0,
+          "et0_used_mm_per_day": null,
+          "recent_rain_mm": 0.0
+        },
+        "irrigation_needs": {
+          "mode": "flood",
+          "volume_mm": 40.0,
+          "days_to_next": null,
+          "efficiency": 0.7
+        },
+        "root_zone": {
+          "depth_mm": 200,
+          "current_vwc": 0.175,
+          "target_vwc": 0.16
+        },
+        "thresholds": {
+          "field_capacity_vwc": 0.2,
+          "critical_vwc": 0.12,
+          "wilting_point_vwc": 0.08
+        },
+        "confidence_factors": {
+          "moisture_data": {
+            "value": 1.0,
+            "weight": 0.3
+          },
+          "et0": {
+            "value": 0.4,
+            "weight": 0.2
+          },
+          "location": {
+            "value": 0.9,
+            "weight": 0.2
+          },
+          "drought": {
+            "value": 0.75,
+            "weight": 0.15
+          },
+          "soil": {
+            "value": 0.8,
+            "weight": 0.15
+          }
+        }
+      },
+      "confidence": 0.79,
+      "data_quality": {
+        "moisture_data_points": 5,
+        "et0_quality": "fallback",
+        "location_quality": "actual"
+      }
+    },
+    "decision_result": {
+      "irrigation_volume_mm": 43.2,
+      "irrigation_mode": "flood",
+      "confidence": 0.84,
+      "reasoning": "Aggregated confidence 0.84. ET0=4.0 mm/day; soil_moisture=17.5%. Mode=flood. Location adjustments: tropical zone, autumn season.",
+      "time_factors": {
+        "water_need": 1.08,
+        "growth_rate": 0.99,
+        "location_band": "tropical",
+        "season": "autumn",
+        "confidence": 0.9
+      },
+      "agents": {
+        "soil_water": {
+          "output": {
+            "avg_soil_moisture_pct": 17.5,
+            "rain_sum_mm": 0,
+            "et0_used_mm_per_day": 4.0,
+            "drought_risk": 0.0,
+            "drought_alert": false,
+            "soil_data": {
+              "used_nearest": false,
+              "used_custom": true,
+              "current_moisture_pct": 17.5,
+              "target_vwc": 0.16,
+              "wilting_vwc": 0.08,
+              "deficit_vwc": 0.0,
+              "et0_used_mm_per_day": null,
+              "recent_rain_mm": 0.0
+            },
+            "irrigation_needs": {
+              "mode": "flood",
+              "volume_mm": 40.0,
+              "days_to_next": null,
+              "efficiency": 0.7
+            },
+            "root_zone": {
+              "depth_mm": 200,
+              "current_vwc": 0.175,
+              "target_vwc": 0.16
+            },
+            "thresholds": {
+              "field_capacity_vwc": 0.2,
+              "critical_vwc": 0.12,
+              "wilting_point_vwc": 0.08
+            },
+            "confidence_factors": {
+              "moisture_data": {
+                "value": 1.0,
+                "weight": 0.3
+              },
+              "et0": {
+                "value": 0.4,
+                "weight": 0.2
+              },
+              "location": {
+                "value": 0.9,
+                "weight": 0.2
+              },
+              "drought": {
+                "value": 0.75,
+                "weight": 0.15
+              },
+              "soil": {
+                "value": 0.8,
+                "weight": 0.15
+              }
+            }
+          },
+          "confidence": 0.79,
+          "data_quality": {
+            "moisture_data_points": 5,
+            "et0_quality": "fallback",
+            "location_quality": "actual"
+          }
+        }
+      },
+      "inconsistencies": []
+    },
+    "inconsistencies": []
+  }
+]
