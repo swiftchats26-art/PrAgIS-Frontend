@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "case_wheat_loam_1",
+    "crop_type": "wheat",
+    "soil_type": "loam",
+    "sowing_date": "2025-09-01",
+    "farm_area_ha": 2.0,
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "current_moisture_pct": 14.0
+  },
+  {
+    "case_id": "case_rice_clay_1",
+    "crop_type": "rice",
+    "soil_type": "clay",
+    "sowing_date": "2025-07-15",
+    "farm_area_ha": 1.5,
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "current_moisture_pct": 30.0
+  },
+  {
+    "case_id": "case_maize_sandy_1",
+    "crop_type": "maize",
+    "soil_type": "sandy",
+    "sowing_date": "2025-06-10",
+    "farm_area_ha": 3.2,
+    "latitude": 15.3173,
+    "longitude": 75.7139,
+    "current_moisture_pct": 18.5
+  }
+]
